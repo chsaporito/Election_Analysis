@@ -27,13 +27,11 @@ Winning Percentage: 73.8%
 -------------------------
 ```    
 ## Election-Audit Summary
-In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+This simple Python script demonstrates an effective method to quickly audit election data and could be used for any election.  The election data provided was based on a state level election and was provided in a basic csv format. For example, the script could be modified for county level elections where the dataset shows votes for each candidate and the votes from each city or town.
 
-This simple Python script demonstrates an effective method to quickly audit election data and could be used for any election.  The election data provided was based on a state level election and was provided in a basic csv format. For example, the script coud be modified for county level elections where the dataset shows votes for each candidate and the votes from each city or town.
+This script was written to accommodate the format of the dataset that was provided which consisted of three columns, Ballot ID, County and Candidate.  The script can be easily modified to accommodate additional demographics such as the city where the voter resides and additional voter demographics such as age or gender.
 
-This script was written to accommodate the format of the dataset that was provided which consisted of three columns, Ballot ID, County and Candidate.  The script can be easily modified to accomidate additional demographics such as the city where the voter resides and additional voter demographics such as age or gender.
-
-Additioally, with the current format, a breakdown of how each candidate performed in each county could be added to the current script.  
+Additionally, with the current format, a breakdown of how each candidate performed in each county could be added to the current script.  
 
 
 
